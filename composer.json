@@ -1,0 +1,43 @@
+{
+    "name": "emandiev/autop-twig-filter",
+    "description": "Craft CMS plugin. Adds a Twig filter that strips html and generates paragraphs from new lines.",
+    "type": "craft-plugin",
+    "version": "1.0.0",
+    "keywords": [
+        "craft",
+        "cms",
+        "craftcms",
+        "craft-plugin",
+        "twig",
+        "twig filter",
+        "formatting",
+        "autop twig filter"
+    ],
+    "support": {
+        "docs": "https://github.com/emandiev/autop-twig-filter/blob/master/README.md",
+        "issues": "https://github.com/emandiev/autop-twig-filter/issues"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Danail Emandiev",
+            "homepage": "https://emandiev.com/"
+        }
+    ],
+    "require": {
+        "craftcms/cms": "^3.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+          "emandiev\\autoptwigfilter\\": "src/"
+        }
+    },
+    "extra": {
+        "name": "autop Twig Filter",
+        "handle": "autop-twig-filter",
+        "hasCpSettings": false,
+        "hasCpSection": false,
+        "changelogUrl": "https://raw.githubusercontent.com/emandiev/autop-twig-filter/master/CHANGELOG.md",
+        "class": "emandiev\\autoptwigfilter\\AutopTwigFilter"
+    }
+}
